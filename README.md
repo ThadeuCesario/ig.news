@@ -51,3 +51,11 @@ Sem o Next quando os Crawlers passassem teriam apenas uma página em branco pois
 O próprio NextJS se responsabilizará por inserir o arquivo <code>next-env.d.ts</code> e <code>tsconfig.json</code>.
 </p>
 </div>
+<br/><br/>
+<hr/>
+<h1>Scoped CSS</h1>
+<div>
+<p>Por padrão o NextJS utiliza o Scoped CSS, porém um detalhe importante é que não podemos aplicar estilos diretamentes em tags <code>HTML</code>.</p>
+<br/>
+<p>Precisamos portanto aplicar um classe para os elementos. Caso contrário se tentarmos estilar diretamente um tag <code>HTML</code>, ocorrerá um erro no build do projeto.</p>
+</div>
