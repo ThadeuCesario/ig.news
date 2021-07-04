@@ -68,4 +68,30 @@ O próprio NextJS se responsabilizará por inserir o arquivo <code>next-env.d.ts
 <code>yarn add sass</code>
 <br/><br/>
 <hr/>
-<h1>Scoped CSS</h1>
+<h1>Componente _app.tsx</h1>
+<div>O componente <code>_app.tsx</code> carrega toda nossas páginas. Inclusive se observarmos esse componente recebe todas as propriedades das páginas.
+<br/><br/>
+<img src="https://i.ibb.co/DQLYy2F/Screenshot-from-2021-07-04-20-25-15.png" />
+<br/><br/>
+<p>Outro ponto de atenção é toda vez que o usuário mudar de página, o conteúdo desse elemento é inteiramente recarregado. Portanto, se tivermos request ou estados eles serão recarregados inteiramente.</p>
+</div>
+<br/><br/>
+<hr/>
+<h1>Componente _document.tsx</h1>
+<div>
+<p>Diferente do componente <code>_app.tsx</code> esse componente carrega somente uma vez em nossa aplicação. <br/> <strong>Independente se o usuário troca de página.</strong>
+Nesse componente é o ideal colocar qualquer coisa que deve executar somente uma vez. Por exemplo a chamada de uma fonte.
+<br/><br/>
+<strong>O componente <code>_document.tsx</code> pode ser comparado com o arquivo <code>index.html</code> que tinhamos na pasta <code>public</code>, quando inicializávamos um projeto utilizando o <code>create-react-app</code></strong>.
+<br/><br/>
+Só um detalhe que esse componente é ideal escrevê-lo em formato de classe, porque o NextJS não fornece um suporte interessante para escrevê-lo como um componente funcional.
+<br/><br/>
+<strong>Mas é somente esse componente, os demais componentes podem ser funcionais.</strong>
+<div>Veja abaixo a forma de escrita de um <code>_document.tsx</code> componente. 
+<br/><br/>
+<strong>Veja que esse componente import o <code>Document</code> de <code>next/document</code></strong>.
+<br/><br/>
+<img src="https://i.ibb.co/DpZB7T9/Screenshot-from-2021-07-04-20-50-09.png"/>
+</div>
+</p>
+</div>
