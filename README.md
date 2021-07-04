@@ -26,3 +26,14 @@ Em seguida o código do React fará a chamada para o back-end com as informaçõ
 Sem o Next quando os Crawlers passassem teriam apenas uma página em branco pois não teria dado o tempo necessário da página ser montada.
 </li>
 </ul>
+<br/><br/>
+<hr/>
+<h1>Estrutura projeto Next.JS</h1>
+<div>
+<p>Veja a estrutura básica de um projeto criado e Next.JS</p>
+<img src="https://i.ibb.co/yVY7pn2/Screenshot-from-2021-07-04-17-08-55.png"/>
+<br/><br/>
+<strong>Um detalhe importante</strong>
+<p>O arquivo <code>_app.js</code> deve estar na raíz principal do projeto ou então dentro da pasta <code>src</code>.</p>
+<strong>Essa é uma regra do próprio NextJS</strong>
+</div>
