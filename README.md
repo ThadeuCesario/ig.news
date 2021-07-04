@@ -46,4 +46,8 @@ Sem o Next quando os Crawlers passassem teriam apenas uma página em branco pois
 <code>yarn add typescript</code>
 <br/><br/>
 <p>Após instalar o typescript, precisamos converter nossos arquivos <code>.js</code> para <code>.ts</code> e converter nossos arquivos <code>.jsx</code> para <code>.tsx</code>.</p>
+<br/><br/>
+<p>Feito isso, basta reiniciamos o servidor pelo comando <code>yarn dev</code>. <br/><br/>
+O próprio NextJS se responsabilizará por inserir o arquivo <code>next-env.d.ts</code> e <code>tsconfig.json</code>.
+</p>
 </div>
