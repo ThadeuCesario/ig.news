@@ -59,3 +59,13 @@ O próprio NextJS se responsabilizará por inserir o arquivo <code>next-env.d.ts
 <br/>
 <p>Precisamos portanto aplicar um classe para os elementos. Caso contrário se tentarmos estilar diretamente um tag <code>HTML</code>, ocorrerá um erro no build do projeto.</p>
 </div>
+<br/>
+<strong>Exemplo de um scoped css:</strong><br/>
+<code>Home.module.css</code><br/>
+<code>Home.module.scss</code><br/><br/>
+<strong>Veja que no último exemplo estou utilizando um arquivo scss. Para funcionar precisamos instalar o <code>SASS</code> em nosso projeto. Para isso, basta executar esse comando:</strong>
+<br/>
+<code>yarn add sass</code>
+<br/><br/>
+<hr/>
+<h1>Scoped CSS</h1>
