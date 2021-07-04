@@ -37,3 +37,11 @@ Sem o Next quando os Crawlers passassem teriam apenas uma página em branco pois
 <p>O arquivo <code>_app.js</code> deve estar na raíz principal do projeto ou então dentro da pasta <code>src</code>.</p>
 <strong>Essa é uma regra do próprio NextJS</strong>
 </div>
+<br/><br/>
+<hr/>
+<h1>Procedimento para configurar o Typescript</h1>
+<div>
+<p>Para realizar a instalação do <code>Typescript</code> primeiramente adicionaremos a dependencia do Typescript, utilizando o comando:</p>
+<br/>
+<code>yarn add typescript</code>
+</div>
