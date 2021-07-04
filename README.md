@@ -44,4 +44,6 @@ Sem o Next quando os Crawlers passassem teriam apenas uma página em branco pois
 <p>Para realizar a instalação do <code>Typescript</code> primeiramente adicionaremos a dependencia do Typescript, utilizando o comando:</p>
 <br/>
 <code>yarn add typescript</code>
+<br/><br/>
+<p>Após instalar o typescript, precisamos converter nossos arquivos <code>.js</code> para <code>.ts</code> e converter nossos arquivos <code>.jsx</code> para <code>.tsx</code>.</p>
 </div>
