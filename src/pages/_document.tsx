@@ -1,8 +1,16 @@
-import Document from 'next/document';
-export default class MyDocument extends Document{
+import Document, { Html, Head, Main, NextScript} from 'next/document';
+export default class MyDocument extends Document {
     render() {
         return (
-            <div>MyDocument Componente - Será bem parecido com um index.html</div>
+            <Html>
+                <Head>
+                    <title>Ig News</title>
+                </Head>
+                <body>
+                    <Main />
+                    <NextScript />
+                </body>
+            </Html>
         )
     }
 }
