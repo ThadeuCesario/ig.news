@@ -4,7 +4,7 @@ export default class MyDocument extends Document {
         return (
             <Html>
                 <Head>
-                    <title>Ig News</title>
+                   {/* Do not use title element here, the better option its use in _app component */}
                 </Head>
                 <body>
                     <Main />
