@@ -95,3 +95,10 @@ Só um detalhe que esse componente é ideal escrevê-lo em formato de classe, po
 </div>
 </p>
 </div>
+
+*************
+Ajustar 
+
+Imagens pelo nextjs são sempre importadas na pasta public, e basta colocarmos o nome da pasta na importação da imagem. Não precisamos importar a imagem como realizamos em uma aplicação react convencional.
+Veja como exemplo o component Header.
+*************
