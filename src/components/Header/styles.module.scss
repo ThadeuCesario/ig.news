@@ -53,4 +53,11 @@
             }
         }
     }
+
+    button {
+        margin-left: auto; // Quando colocamos margin-left/right auto, é inserido o máximo possível de margem e afasta o elemento
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 } 
