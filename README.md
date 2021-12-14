@@ -109,9 +109,9 @@ Só um detalhe que esse componente é ideal escrevê-lo em formato de classe, po
 <h1>Chamadas Next</h1>
 <p>No Next temos três formas de coletar dados para uma página:</p>
 <ul>
-<li>Client-Side</li>
-<li>Server-Side</li>
-<li>Static Site Generation</li>
+<li>Client-Side (Alguma informação de ação, ou algo que não precisa aparecer imediatamente)</li>
+<li>Server-Side (Dados dinâmicos da sessão do usuário -  dados de login)</li>
+<li>Static Site Generation (compartilhar a página com todas as pessoas - páginas iguais)</li>
 </ul>
 
 *************
