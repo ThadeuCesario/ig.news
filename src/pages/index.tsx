@@ -24,7 +24,7 @@ export default function Home({product}: HomeProps) {
           <p>
             Get access to all the publications 
             <br/>
-            <span>for {product.amount} month</span>
+            <span>for ${product.amount} month</span>
           </p>
           <SubscribeButton />
         </section>
@@ -47,6 +47,7 @@ export const getStaticProps: GetStaticProps = async () => {
   return {
     props: {
       product
-    }
+    },
+    revalidate: 60 * 60 * 24, // 24 horas
   }
 }
