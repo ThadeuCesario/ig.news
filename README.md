@@ -120,6 +120,24 @@ página chamada <code>products.tsx</code>, logo terá uma rota <code>/products</
 </p>
 </ul>
 <br/><br/>
+<hr/>
+<h1>Chamadas Next</h1>
+<p>No Next temos três formas de coletar dados para uma página:</p>
+<ul>
+<li>Client-Side (Alguma informação de ação, ou algo que não precisa aparecer imediatamente)</li>
+<li>Server-Side (Dados dinâmicos da sessão do usuário -  dados de login)</li>
+<li>Static Site Generation (compartilhar a página com todas as pessoas - páginas iguais)</li>
+</ul>
+
+<br/><br/>
+<h1>Autenticação</h1>
+<ul>
+<li>JWT (Storage)</li>
+<li>Next Auth (Social e quando não temos controle no back)</li>
+<li>Cognito, Auth0</li>
+</ul>
+<br/><br/>
+
 
 *************
 Anotações extras 
