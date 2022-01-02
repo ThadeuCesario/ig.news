@@ -28,6 +28,16 @@ Sem o Next quando os Crawlers passassem teriam apenas uma página em branco pois
 </ul>
 <br/><br/>
 <hr/>
+
+<h1>SSG (Static Site Generation)</h1>
+<p>O Static Site Generation é uma estratégia que o Next utiliza para salvar uma cópia do HTML gerado. Assim em futuras requisições para a mesma página temos um ganho de perfomance e menos requisições desnecessárias.</p>
+<img src="https://i.ibb.co/V2SfLPs/Screenshot-from-2022-01-05-06-57-44.png"/>
+<br/><br/>
+Para aplicar essa mudança apenas precisamos utilizar o <code>getStaticProps</code> em nossa aplicação.<br/>
+Uma outra proprieda interessante que temos é o revalidate, que serve para controlar o tempo para o Next gerar uma nova página estática.<br/>
+<img src="https://i.ibb.co/RhVqkgh/Screenshot-from-2022-01-05-07-09-13.png" />
+<hr/>
+
 <h1>Estrutura projeto Next.JS</h1>
 <div>
 <p>Veja a estrutura básica de um projeto criado e Next.JS</p>
@@ -95,9 +105,17 @@ Só um detalhe que esse componente é ideal escrevê-lo em formato de classe, po
 </div>
 </p>
 </div>
+<hr/>
+<h1>Chamadas Next</h1>
+<p>No Next temos três formas de coletar dados para uma página:</p>
+<ul>
+<li>Client-Side</li>
+<li>Server-Side</li>
+<li>Static Site Generation</li>
+</ul>
 
 *************
-Ajustar 
+Anotações extras 
 
 Imagens pelo nextjs são sempre importadas na pasta public, e basta colocarmos o nome da pasta na importação da imagem. Não precisamos importar a imagem como realizamos em uma aplicação react convencional.
 Veja como exemplo o component Header.
