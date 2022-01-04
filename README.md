@@ -101,4 +101,14 @@ Ajustar
 
 Imagens pelo nextjs são sempre importadas na pasta public, e basta colocarmos o nome da pasta na importação da imagem. Não precisamos importar a imagem como realizamos em uma aplicação react convencional.
 Veja como exemplo o component Header.
+
+
+Em um projeto NextJS não precisamos nos preocupar em implementar um sistema de roteamento. Pois ele mesmo já vem integrado com isso.
+
+O componente _app localizado em pages é o responsável por acessar as demais páginas. Além disso, esse componente é recarregado sempre que há uma troca de página.
+
+O componente _document diferente do _app, é carregado somente uma única vez em nossa aplicação.
+
+NextScript => Local em que o NextJS colocará os arquivos javascript para a aplicação funcionar. Portanto
+ao final do body é a melhor opção.
 *************
