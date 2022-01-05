@@ -113,6 +113,13 @@ Só um detalhe que esse componente é ideal escrevê-lo em formato de classe, po
 <li>Server-Side (Dados dinâmicos da sessão do usuário -  dados de login)</li>
 <li>Static Site Generation (compartilhar a página com todas as pessoas - páginas iguais)</li>
 </ul>
+<br/><br/>
+<h1>File System Routes</h1>
+<p>Sempre que temos uma nova página uma rota já é criada para ela. Por exemplo, vamos supor que criar em <code>pages</code>, uma
+página chamada <code>products.tsx</code>, logo terá uma rota <code>/products</code>.
+</p>
+</ul>
+<br/><br/>
 
 *************
 Anotações extras 
