@@ -138,6 +138,18 @@ página chamada <code>products.tsx</code>, logo terá uma rota <code>/products</
 </ul>
 <br/><br/>
 
+<h1>Variáveis de ambiente públicas</h1>
+<p>Para que uma variável de ambiente fique pública no NextJS, precisamos iniciar com
+<code>NEXT_PUBLIC</code>, então por exemplo: <code>NEXT_PUBLIC_MINHA_VARIAVEL_PUBLICA</code></p>
+
+<br/><br/>
+
+<h1>Locais seguros para armazenar variáveis de ambiente</h1>
+<ul>
+<li>getServerSideProps (SSR)</li>
+<li>getStaticProps (SSG)</li>
+<li>API routes</li>
+</ul>
 
 *************
 Anotações extras 
