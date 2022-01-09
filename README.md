@@ -151,6 +151,51 @@ página chamada <code>products.tsx</code>, logo terá uma rota <code>/products</
 <li>API routes</li>
 </ul>
 
+<br/><br/>
+
+<h1>JAMStack</h1>
+<p>Podemos criar aplicações quase que completas, sem necessariamente depender de uma estrutura completa de back-end.</p>
+<strong>Isso não exclui a responsabilidade e importância de um back-end em nossa aplicação. Mas sim resove problemas que antes ficaríamos presos tendo a necessidade de desenvolver um back-end.</strong>
+<ul>
+<li>J: Javascript (O javascript de toda nosssa aplicação)</li>
+<li>A: API (Todas as APIs de terceiros que podemos aplicar em nosso projeto)</li>
+<li>M: Markup (Marcação HTML que podemos utilizar)</li>
+</ul>
+
+
+<br/><br/>
+
+<h1>CMS (Content Management System)</h1>
+<p>Geralmente já temos um painel de administração pronto e que podemos criar conteúdo por esse painel.</p>
+<ul>
+    <li>Wordpress</li>
+    <li>Drupal</li>
+    <li>Joomla</li>
+    <li>Magento - ecommerce</li>
+</ul>
+
+<br/><br/>
+
+<h1>Headless CMS</h1>
+<p>Praticamente o mesmo que o CMS anteriormente, porém não temos a parte visual  e todos os dados são servidos por uma API</p>
+<strong>Alguns exemplos gratuitos:</strong>
+<ul>
+    <li>Strapi (focado em qualquer tipo de conteúdo e é open-source)</li>
+    <li>Ghost (focado em blog)</li>
+    <li>Keystone</li>
+</ul>
+<br/>
+<strong>Alguns exemplos pagos:</strong>
+<ul>
+    <li>GraphCMS</li>
+    <li>Prismic CMS</li>
+    <li>Contentful</li>
+    <li>Shopify - ecommerce</li>
+    <li>Saleor - ecommerce</li>
+</ul>
+<br/>
+
+
 *************
 Anotações extras 
 
