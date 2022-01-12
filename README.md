@@ -211,4 +211,6 @@ O componente _document diferente do _app, é carregado somente uma única vez em
 
 NextScript => Local em que o NextJS colocará os arquivos javascript para a aplicação funcionar. Portanto
 ao final do body é a melhor opção.
+
+Toda página gerada de forma estática é uma página não protegida
 *************
