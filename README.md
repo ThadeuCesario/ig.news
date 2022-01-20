@@ -213,4 +213,6 @@ NextScript => Local em que o NextJS colocará os arquivos javascript para a apli
 ao final do body é a melhor opção.
 
 Toda página gerada de forma estática é uma página não protegida
+Toda página que pode ser pública, pode ser estática
+
 *************
